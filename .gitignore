@@ -1,0 +1,9 @@
+venv/
+weights/
+__pycache__/
+*.pyc
+.radeon_ready
+synthetic_traj/
+logs/
+*.tar
+miopen/

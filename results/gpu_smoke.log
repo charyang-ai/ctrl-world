@@ -1,0 +1,8 @@
+torch 2.11.0+rocm7.14.0
+hip 7.14.60850
+available True
+count 1
+name AMD Radeon Pro W7900D
+fp16_matmul 53.90625
+bf16_matmul -20.25
+GPU_SMOKE_OK

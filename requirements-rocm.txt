@@ -1,0 +1,19 @@
+# ROCm PyTorch is provided by the image. Do not pip-install torch:
+# the PyPI wheel is a CUDA build and would shadow the HIP runtime.
+diffusers==0.34.0
+transformers==4.48.1
+huggingface_hub>=0.27,<1.0
+accelerate>=1.0,<1.6
+mediapy
+tqdm
+numpy
+einops
+scipy
+pandas
+opencv-python-headless
+av
+safetensors
+tokenizers>=0.21,<0.22
+pillow
+imageio
+imageio-ffmpeg

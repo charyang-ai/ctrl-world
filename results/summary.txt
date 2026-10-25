@@ -1,0 +1,4 @@
+mp4_count 3
+417913 /workspace/src/synthetic_traj/Rollouts_replay/video/time_20261025_121918_traj_899_8_5_Move_the_banana_to_the_right.mp4
+386331 /workspace/src/synthetic_traj/Rollouts_replay/video/time_20261025_122206_traj_18599_14_5_Pick_the_black_thing_from_the_.mp4
+267601 /workspace/src/synthetic_traj/Rollouts_replay/video/time_20261025_122455_traj_199_8_5_Move_the_green_towel_to_the_ri.mp4
