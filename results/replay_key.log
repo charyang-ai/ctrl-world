@@ -1,4 +1,4 @@
-REPLAY_START 2026-10-25T12:15:56+00:00
+REPLAY_START 2026-10-25T15:52:52+00:00
 torch 2.11.0+rocm7.14.0
 hip 7.14.60850
 cuda_is_available True
@@ -8,11 +8,11 @@ total_mem_gb 47.98
 load world model success
 Ground truth frames ids [ 8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
 text_i: Move the banana to the right eef pose at t=0 [0.30432525 0.17114726 0.46810341 3.06494641 0.00453974 0.20253178
-Saving video to synthetic_traj/Rollouts_replay/video/time_20261025_121918_traj_899_8_5_Move_the_banana_to_the_right.mp4
+Saving video to synthetic_traj/Rollouts_replay/video/time_20261025_155637_traj_899_8_5_Move_the_banana_to_the_right.mp4
 Ground truth frames ids [14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37
-text_i: Pick the black thing from the chair and place it on the table eef pose at t=0 [ 0.43228191 -0.02140349  0.32143933 -3.00785351  0.21886876 -1.20369852
-Saving video to synthetic_traj/Rollouts_replay/video/time_20261025_122206_traj_18599_14_5_Pick_the_black_thing_from_the_.mp4
+text_i: Pick the black thing from the chair and place it on the table eef pose at t=0 [ 0.43228191 -0.02140349  0.32143933 -3.00785351  0.21
+Saving video to synthetic_traj/Rollouts_replay/video/time_20261025_155936_traj_18599_14_5_Pick_the_black_thing_from_the_.mp4
 Ground truth frames ids [ 8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
-text_i: Move the green towel to the right of the lid eef pose at t=0 [ 0.52322054  0.03005476  0.27161419 -3.10292363  0.05448532  0.07976072
-Saving video to synthetic_traj/Rollouts_replay/video/time_20261025_122455_traj_199_8_5_Move_the_green_towel_to_the_ri.mp4
-REPLAY_EXIT 0 2026-10-25T12:24:57+00:00
+text_i: Move the green towel to the right of the lid eef pose at t=0 [ 0.52322054  0.03005476  0.27161419 -3.10292363  0.05448532  0.0797607
+Saving video to synthetic_traj/Rollouts_replay/video/time_20261025_160225_traj_199_8_5_Move_the_green_towel_to_the_ri.mp4
+REPLAY_EXIT 0 2026-10-25T16:02:27+00:00

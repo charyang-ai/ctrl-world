@@ -1,0 +1,19 @@
+container_devices: renderD128 
+visible_devices_env: none
+rocminfo_gpu_agents: 1
+Name:                    AMD EPYC 9334 32-Core Processor    
+Marketing Name:          AMD EPYC 9334 32-Core Processor    
+Device Type:             CPU                                
+BDFID:                   0                                  
+Name:                    AMD EPYC 9334 32-Core Processor    
+Marketing Name:          AMD EPYC 9334 32-Core Processor    
+Device Type:             CPU                                
+BDFID:                   0                                  
+Name:                    gfx1100                            
+Marketing Name:          AMD Radeon Pro W7900D              
+Device Type:             GPU                                
+BDFID:                   768                                
+Name:                    amdgcn-amd-amdhsa--gfx1100         
+Name:                    amdgcn-amd-amdhsa--gfx11-generic   
+torch_device_count 1
+device0 AMD Radeon Pro W7900D gfx1100 47.98 GB

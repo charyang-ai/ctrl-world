@@ -1,0 +1,6 @@
+denoise_calls 36
+denoise_s_per_interaction mean 12.37 min 11.82 max 17.92
+wall_s 575 2026-10-25T15:52:52+00:00 2026-10-25T16:02:27+00:00
+traj 899 saved 15:56:37 seconds_since_prev 225
+traj 18599 saved 15:59:36 seconds_since_prev 179
+traj 199 saved 16:02:25 seconds_since_prev 169

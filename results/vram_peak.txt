@@ -1,0 +1,1 @@
+gpu0_vram_peak_gib 30.41 at 15:59:23, samples 125

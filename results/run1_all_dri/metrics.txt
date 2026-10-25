@@ -1,0 +1,4 @@
+traj 199 frames 49 | exterior_1 model 25.45 static 21.03 | exterior_2 model 25.92 static 20.32 | wrist model 17.65 static 12.43 | all model 23.00 static 17.92 model_last10 22.16
+traj 899 frames 49 | exterior_1 model 23.73 static 18.74 | exterior_2 model 22.97 static 17.58 | wrist model 17.95 static 11.53 | all model 21.55 static 15.95 model_last10 20.51
+traj 18599 frames 49 | exterior_1 model 24.18 static 20.25 | exterior_2 model 22.16 static 17.94 | wrist model 20.66 static 10.95 | all model 22.33 static 16.38 model_last10 20.88
+mean over 3 trajectories: model 22.30 dB, static 16.75 dB
