@@ -1,10 +1,14 @@
-"""Video reader used in place of decord.
+"""PyAV stand-in for decord's VideoReader.
 
-The ROCm PyTorch image is CPython 3.12. Published decord wheels stop at
-3.11, so `import decord` is not a dependency we can pin. This module keeps
-the two names the rollout scripts import, `VideoReader` and `cpu`. Frames
-come back as a uint8 array of shape (T, H, W, 3), which is what
+The rollout scripts import `VideoReader` and `cpu` from here. Frames come back
+as a uint8 array of shape (T, H, W, 3), the same thing decord's
 `VideoReader.get_batch(...).asnumpy()` returns.
+
+It was written on the assumption that decord had no CPython 3.12 wheel. That
+assumption was wrong: decord 0.6.0 ships a py3-none manylinux2010 wheel that
+installs and runs in the ROCm 7.14 image. On all 12 validation videos in
+dataset_example/droid_subset, this reader and decord return identical frames
+(max abs difference 0), so either one feeds the replay the same input.
 """
 from __future__ import annotations
 
